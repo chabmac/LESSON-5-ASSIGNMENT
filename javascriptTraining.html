@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+	</head>
+	<body>
+		Result:
+		<span id="result"></span>
+
+		<div onclick="change()" id="el">CHANGE ME</div>
+
+		 <script>
+		
+		 // ALERT	
+		alert("hello there!");
+
+			document.getElementById('el').innerHTML = "hello world";
+
+
+		function change(){
+			document.getElementById('el').innerHTML = "hello world";
+		}
+		// ALERT
+			
+		// VARIABLES
+		// NUMBERS
+			var num1 = 5;
+			var num2 = 10;
+
+			var result = num1 + num2
+			console.log(result);
+		// NUMBERS	
+		
+		
+		// BOOLEAN
+
+			var result = num1 > num2
+			console.log(result);
+		
+		// BOOLEAN
+		
+		
+		// STRING
+
+			var string1 = "the cat";
+			var string2 = "is fat!";
+
+			var stringResult = string1 + string2;
+			console.log(stringResult);
+		
+		// STRING
+	
+
+		// ARRAY
+
+			var fords = ["Escape", "Focus"];
+			var toyotas = ["Prius", "Camry"];
+
+			var cars = [fords, toyotas]
+
+			var cars = ["Escape", "Focus"],["Prius", "Camry"];
+
+			console.log(cars[0][0]);
+
+		// ARRAY
+		
+		//OBJECTS
+
+			var car = {make: 'Ford', model: 'Escape'};
+
+			console.log(car['make']);	
+
+			var charlie = {
+				firstName: "Charles",
+				lastName: "McGwire",
+				birthday: "MAy 4",
+				dogName: "Mac"
+			};
+
+			console.log(charlie.birthday);
+
+		//OBJECTS
+
+		//TESTING
+
+			"stringone" === "string two";
+			// >FALSE
+
+			"stringone" !== "string two";
+			// >TRUE
+
+		//TESTING	
+		
+		// IF STATEMENT
+
+
+			if(5>10){
+			  console.log("You'll never see this in the console because 5 is not greater than 10");
+			}
+			if(5<10){
+			  console.log("But you'll definitely see this");
+			}
+		
+		// IF STATEMENT	
+
+
+		// ELSE STATEMENT	
+
+			var fox = 20;
+			var cat = 10 < 20;
+
+			var num = 100;
+
+			if (num < 10) {
+				console.log("number is less than 10");
+			} else {
+				console.log("number is greater than or equal to 10");
+
+			}
+		// ELSE STATEMENT	
+
+		//ELSE IF STATEMENT
+
+			function openDoor(doorNumber) {
+				if (doorNumber === 1) {
+					console.log ("you win a banana");
+				} else if (doorNumber === 2) {
+					console.log ("you win a gorilla");
+				} else if (doorNumber === 3) {
+					console.log ("you win a cheese brick");
+				} else {
+					console.log ("loser!");
+				}
+			}
+
+		//ELSE IF STATEMENT
+
+			// 	function addNumbers(numberOne, otherNumber){
+			// 	return numberOne + 10 + otherNumber;
+			// }
+			// console.log(addNumbers(4,10));
+
+			// function declareName (firstName) {
+			// 	return alert("hello" + firstName);
+			// }
+			//  declareName("chuck");
+
+			// function saySomething() {
+			// 	return console.log("banana apple");	
+			// }
+			// saySomething();
+		</script>
+	</body>
+</html>		
